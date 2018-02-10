@@ -1,11 +1,14 @@
 {
-  "name": "o-a",
+  "name": "@annotis/o-a",
   "version": "0.1.0",
   "main": "index.js",
   "author": "Otis Chou <otischou.tw@gmail.com>",
   "license": "MIT",
   "scripts": {
     "test": "standard && ava"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "ava": "^0.25.0",
