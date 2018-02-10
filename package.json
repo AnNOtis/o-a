@@ -2,6 +2,9 @@
   "name": "@annotis/o-a",
   "version": "0.2.0",
   "main": "index.js",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
   "author": "Otis Chou <otischou.tw@gmail.com>",
   "license": "MIT",
   "scripts": {
