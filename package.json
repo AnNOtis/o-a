@@ -1,0 +1,19 @@
+{
+  "name": "o-a",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Otis Chou <otischou.tw@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && ava"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "standard": "^10.0.3"
+  },
+  "ava": {
+    "concurrency": 5,
+    "failFast": true,
+    "powerAssert": true
+  }
+}
