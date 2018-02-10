@@ -1,5 +1,13 @@
 # O-A
 
+## Install
+
+```sh
+yarn add @annotis/o-a
+```
+
+## Usage
+
 ```js
 const players = oa('name', [
   {name: 'player1', color: 'red'},
@@ -36,3 +44,7 @@ players.hash
 }
 **/
 ```
+
+## License
+
+MIT
